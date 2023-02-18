@@ -5,6 +5,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -50,7 +51,7 @@ main {
  */
 
 hr {
-	box-sizing: content-box;
+
 	/* 1 */
 	height: 0;
 	/* 1 */

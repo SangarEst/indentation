@@ -16,7 +16,7 @@
 }
 
 .header__text {
-	padding-right: 70px;
+	padding-right: 60px;
 }
 
 .header__text:not(:last-of-type) {
@@ -41,7 +41,7 @@
 }
 
 .menu__body {
-	padding-left: 20px;
+	padding-left: 23px;
 }
 
 .menu__item:not(:last-child) {
@@ -60,45 +60,106 @@
 }
 
 /* end HEADER */
-
-/* GROUP */
-
-.group {
+.article {
 	padding: 25px 0;
 }
 
-.group__title {
-	padding-right: 80px;
+.article__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 120%;
 	margin-bottom: 30px;
 }
 
-.group__text:not(:last-of-type) {
+.article__block-top {
 	margin-bottom: 30px;
 }
 
-.group__content {
+.article__block {
+	margin-bottom: 50px;
+}
+
+.article__right-text {
+	padding-left: 30px;
 	display: inline-block;
-	max-width: 480px;
+	max-width: 510px;
 	vertical-align: top;
 }
 
-.group__img {
-	padding-bottom: 30px;
-	margin-right: 20px;
+.article__block-text {
+	display: inline-block;
+	max-width: 480px;
 }
 
-.group__image {
-	margin-left: 20px;
+.article__img:not(:first-child) {
+	padding-left: 36px;
+	display: inline-block;
 }
 
-.last {
-	padding: 25px 0;
+.article__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.article__text:not(:last-of-type) {
+	margin-bottom: 30px;
 }
 
 
+.article__bold {
+	font-weight: 700;
+}
 
-.end {
-	padding: 25px 0;
+.article__italic {
+	font-style: italic;
+}
+
+.article__figure {
+	margin-bottom: 30px;
+}
+
+.article__figcaption {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	margin-bottom: 30px;
+}
+
+.article__small {
+	margin: 0 auto 30px auto;
+	display: block;
+}
+
+.article__small:last-child {
+	margin: 0 auto;
+}
+
+.article__menu {
+	margin-bottom: 30px;
+}
+
+.article__single {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	margin-bottom: 30px;
+}
+
+.article__important {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	margin-bottom: 30px;
+
+	color: #5E5E5E;
+	border: 1px solid #000000;
+
+}
+
+.article__subtext {
+	padding: 15px 30px;
+
 }
 
 .footer {
@@ -111,6 +172,13 @@
 	padding: 25px 30px 25px 45px;
 }
 
+.footer__title {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 120%;
+	margin-bottom: 20px;
+}
+
 .footer__list {
 	margin-bottom: 30px;
 }
@@ -119,4 +187,9 @@
 	list-style: none;
 	font-size: 20px;
 	line-height: 120%;
+
+}
+
+.footer__item:not(:last-child) {
+	margin-bottom: 10px;
 }
