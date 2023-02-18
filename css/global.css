@@ -10,6 +10,10 @@ body {
 	margin: 0 auto;
 }
 
+section {
+	padding: 25px 0;
+}
+
 .title {
 	font-weight: 900;
 	font-size: 36px;
