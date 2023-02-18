@@ -119,6 +119,10 @@
 	margin-bottom: 30px;
 }
 
+.article__figure:last-child {
+	margin-bottom: 0;
+}
+
 .article__figcaption {
 	font-weight: 400;
 	font-size: 20px;
